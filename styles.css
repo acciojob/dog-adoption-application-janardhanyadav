@@ -1,2 +1,44 @@
 
 /* Your CSS Code here. */
+/* Your CSS Code here. */
+
+#container{
+
+
+  width: 500px;
+	border:1px solid black;
+	border-radius:10px;
+	padding:10px;
+  text-align: left;
+  height: 200px;
+}
+
+#name{
+	margin-top:5px;
+	padding-left:10px;
+	border-radius:10px;
+}
+
+#phone{
+	margin-top:5px;
+	padding-left:10px;
+	border-radius:10px;
+}
+
+#address{
+	margin-top:5px;
+	padding-left:10px;
+	border-radius:10px;
+}
+
+#checkbox{
+
+}
+
+#submit{
+
+	text-align:center;
+	margin-top:10px;
+
+	border-radius:10px;
+}

@@ -7,6 +7,32 @@
 </head>
 
 <body>
+	<form id="container"">
+		<label for="Name">Name</label>
+		<input id="name" type="text" placeholder="Name" size="32">
+		<br>
+		<label for="phone">Phone Number</label>
+		<input id="phone" type="text" placeholder="Phone Number" size="15">
+		<br>
+		<label for="address">Address</label>
+		<input id="address" type="text" placeholder="Address" size="15">
+		<br>
+		<label for="checkbox">Have you ever lived with a Dog before?</label>
+		<input id="checkbox" type="checkbox" >
+		<br>
+
+		<label for="multiSelect">Please select your preferred breeds:</label>
+
+          <select name="Dogs" id="multiSelect" multiple>
+                <option >Bulldog</option>
+                <option >German Shepherd</option>
+                <option >Golden Retriever</option>
+                <option >Alaskan Malamute</option>
+          </select>
+
+		<br>
+		<input id="submit" type="submit" value="Submit">
+	</form>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
